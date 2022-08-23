@@ -2,7 +2,9 @@ import React from 'react'
 
 const Counter = () => {
   return (
-    <h1>test</h1>
+    <span>You clicked ** clicks</span>>
+    <br/>
+    <button onClick={handleButtonClick}>Click me!</button>
   )
 }
 
