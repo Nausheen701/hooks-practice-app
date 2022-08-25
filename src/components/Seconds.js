@@ -5,7 +5,10 @@ const Seconds = () => {
 
     useEffect(() => {
         const timer = setInterval(() => {
-            setCounter(counter+1)
+            // setCounter(counter+1)
+            setCounter((counter) => {
+                return counter+1
+            })
         }, 1000)
     }, [])
   return (
