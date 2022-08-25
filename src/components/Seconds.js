@@ -8,8 +8,15 @@ const Seconds = () => {
             // setCounter(counter+1)
             setCounter(counter => counter+1)
         }, 1000)
+
+        return () => {
+            clearInterval(timer)
+        }
+
     }, [])
-  return (
+    
+  
+    return (
     <div>You spent {counter} seconds on this site. </div>
   )
 }
