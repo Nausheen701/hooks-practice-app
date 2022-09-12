@@ -6,8 +6,8 @@ import Seconds from './components/Seconds'
 const App = () => {
   return (
     <>
-    <Counter/>
-    <Test/>
+    {/* <Counter/>
+    <Test/> */}
     <Seconds/>
     </>
   )
